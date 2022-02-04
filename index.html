@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Validation formulaire</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form action="form-send.php" method="post" id="form">
+            <h1>Login</h1>
+            <label for="username" name="username">Username</label>
+            <input type="text" id="username" placeholder="Username">
+            <span id="usernameError"></span>
+
+            <label for="mail" name="mail">Email</label>
+            <input type="text" id="mail" placeholder="Email address">
+            <span id="mailError"></span>
+
+            <label for="password" name="password">Password</label>
+            <input type="text" id="password" placeholder="Password">
+            <span id="passwordError"></span>
+
+            <button type="submit">S'enregistrer</button>
+        </form>
+
+        <script src="app.js"></script>
+    </body>
+</html>

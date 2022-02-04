@@ -1,0 +1,80 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Helvetica, Arial, sans-serif;
+  margin:  0; 
+}
+
+html, body {
+  height:  100vh; 
+  width:  100vw;
+  margin:  0 0; 
+  display:  flex; 
+  align-items:  center; 
+  justify-content:  center;
+  background:  #41367e; 
+}
+
+h1 {
+  color: #41367e;
+  width: 100%;
+  text-align:  center;
+  margin-bottom: 2rem;
+}
+
+form {
+  padding:  40px 30px; 
+  background:  #fefefe; 
+  display:  flex; 
+  flex-direction:  column;
+  align-items:  flex-start; 
+  padding-bottom:  20px; 
+  width:  300px; 
+}
+
+button {
+  -webkit-appearance:  none; 
+  width:  auto;
+  min-width:  100px;
+  border-radius:  24px; 
+  text-align:  center; 
+  padding:  15px 40px;
+  margin-top:  5px; 
+  color:  #fff;
+  background-color: #41367e; 
+  font-size:  14px;
+  margin-left:  auto; 
+  font-weight:  bold; 
+  border:  none;
+  transition:  all .3s ease; 
+  outline: 0; 
+  cursor: pointer;
+}
+
+button:hover {
+  transform:  translateY(-3px);
+}
+
+label {
+  color:  #41367e;
+  font-weight:  bold; 
+  font-size: 1.2rem;
+} 
+
+input {
+  font-size:  16px; 
+  padding:  1.2rem 0px; 
+  margin-bottom: 1.5rem;
+  height:  0.8rem; 
+  border:  none; 
+  border-bottom:  solid 1px rgba(65, 54, 126, 0.3);
+  background:  #fff; 
+  width:  95%; 
+  box-sizing:  border-box; 
+  color:  #000; 
+  -webkit-appearance:  none; 
+}
+
+p {
+  color:#fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
